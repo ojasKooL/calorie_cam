@@ -1,4 +1,3 @@
-### Health Management APP
 from dotenv import load_dotenv
 load_dotenv()
 import streamlit as st
@@ -39,8 +38,8 @@ You are an expert in nutrition where you need to see the food items from the ima
 ----
 """
 
-st.set_page_config(page_title="AI Nutritionist App")
-st.header("AI Nutritionist App")
+st.set_page_config(page_title="Calorie Cam")
+st.header("Calorie Cam")
 
 input_text = st.text_input("Input Prompt: ", key="input")
 uploaded_file = st.file_uploader("Upload Image", type=["jpg", "png", "jpeg"])
